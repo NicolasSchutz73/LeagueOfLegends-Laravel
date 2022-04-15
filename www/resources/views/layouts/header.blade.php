@@ -10,8 +10,9 @@
 
 </head>
 <body>
-<h1>Hello World</h1>
 
-<script src="{{ asset('js/app.js') }}"></script>
-</body>
-</html>
+<header>
+    <div class="logo">
+        <img src="{{ asset('img/logo.png')}}" alt="logo" width="83px" height="33px">
+    </div>
+</header>

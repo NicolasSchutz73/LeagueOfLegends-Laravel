@@ -18,7 +18,13 @@ use Illuminate\Support\Facades\Route;
 //    return view('home');
 //});
 
-Route::get('/', [Home::class, 'index']);
+Route::get('/', [Home::class, 'index'])->name('home.index');
 
 
-Route::get('/leagueoflegends/{name}', [App\Http\Controllers\leagueOfLegendsController::class,'index'])->name('leagueoflegends.index');
+
+Route::get('/champion/{name}', [App\Http\Controllers\Champion::class,'index'])->name('champion.index');
+
+Route::get('/contact', [App\Http\Controllers\Contact::class, 'index'])->name('contactindex');
+
+Route::post('/contact', [App\Http\Controllers\Contact::class, 'send'])->name('contactsend');
+

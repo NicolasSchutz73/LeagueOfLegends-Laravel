@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url("//db.onlinewebfonts.com/c/2c37f3699d9728b566e9bdc5b11e5180?family=BeaufortW01-Regular");
+
+html {
+    font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main-title {
+
+    display: flex;
+    flex-direction: column;
+
+    :first-child {
+        font-size: 24px;
+        font-family: 'Mulish', sans-serif;
+        color: black;
+        font-style: italic;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    :nth-child(2) {
+        font-family: "BeaufortW01-Regular", sans-serif;
+        color: black;
+        font-style: italic;
+        font-weight: 700;
+        text-transform: uppercase;;
+        font-size: 66px;
+    }
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #535659;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+#strong {
+    font-size: 54px;
+    font-weight: 700;
+}

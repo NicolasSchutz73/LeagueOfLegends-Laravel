@@ -1,0 +1,117 @@
+.container {
+    width: 100%;
+    background: #000913;
+    padding-top: 2rem;
+    color: white;
+
+
+    .main {
+
+
+        .presentation {
+
+
+            .illustration {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .description {
+
+
+                .heading {
+
+
+                    h1 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+
+                        span {
+                            color: white;
+                            font-size: 46px;
+                        }
+
+                    }
+                }
+
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 1rem;
+
+                    .specs {
+                        padding: 1rem;
+
+                        .specs-item {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            :first-child {
+                                color: #CFA75B;
+                                margin-bottom: 6px;
+                            }
+                            :nth-child(2) {
+                                color: white;
+                            }
+                        }
+
+                    }
+
+                    .lore {
+                        max-width: 450px;
+                        padding: 1rem;
+                        border-top: 2px solid #1C242C;
+                    }
+                }
+
+
+                .spells {
+
+
+                    .passive {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .passive-info {
+                            padding: 1rem 1.5rem;
+
+                            > * {
+                                margin: 0.5rem;
+                            }
+                        }
+                    }
+
+
+                    .wrap {
+                        display: flex;
+                        flex-direction: column;
+
+                        .active {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+
+                            .active-info {
+                                padding: 1rem 1.5rem;
+
+                                > * {
+                                    margin: 0.5rem;
+
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
